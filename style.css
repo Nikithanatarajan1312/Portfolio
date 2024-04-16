@@ -35,7 +35,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .services, .skills, .teams, .contact, .education, sfooter{
+.about, .services, .skills, .teams, .contact, .education, .certificate, sfooter{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -436,6 +436,40 @@ section .title::after{
 .owl-dot.active,
 .owl-dot:hover{
     background: #8860D0 !important;
+}
+
+/* Certificate styling */
+
+.certificate{
+    background-color: #cfc3e6;
+}
+
+.certificate .flexBox{
+    display: flex;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+}
+
+.certificate .table{
+    width: 80%;
+}
+
+th{
+    background-color: #492291;
+    color: #fff;
+}
+
+th, td{
+    border: 2px solid #492291;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
+td{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
 }
 
 /* contact section styling */
